@@ -47,10 +47,10 @@ import { Document, Types } from "mongoose";
 export class Project extends Document {
 
   @Prop({ required: true })
-  title: string;
+  title!: string;
 
   @Prop({ type: [{ type: Types.ObjectId, ref: 'Developer' }] })
-  developers: Types.ObjectId;
+  developers!: Types.ObjectId;
 
 }
 
