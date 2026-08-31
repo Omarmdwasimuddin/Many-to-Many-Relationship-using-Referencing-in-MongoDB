@@ -159,8 +159,6 @@ export class ProjectController {
 
 >## OUTPUT
 >
->#
->
 ><img width="703" height="653" alt="image" src="https://github.com/user-attachments/assets/19b03d34-495c-4cc3-856d-ba4383627d98" />
 >
 >#
