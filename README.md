@@ -105,8 +105,8 @@ export class ProjectService {
         ]);
 
         const [dev1, dev2] = await Promise.all([
-            this.developerModel.create({ name: 'Alice', projects: projectA._id }),
-            this.developerModel.create({ name: 'Bob', projects: projectB._id }),
+            this.developerModel.create({ name: 'Alice', project: projectA._id }),
+            this.developerModel.create({ name: 'Bob', project: projectB._id }),
         ]);
 
         await Promise.all([
